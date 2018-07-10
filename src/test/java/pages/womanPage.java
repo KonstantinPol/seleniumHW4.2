@@ -12,6 +12,7 @@ public class womanPage {
     }
 
     @FindBy (linkText = "Faded Short Sleeve T-shirts")
+    public
     WebElement product1;
     @FindBy (linkText = "Printed Dress")
     WebElement product2;

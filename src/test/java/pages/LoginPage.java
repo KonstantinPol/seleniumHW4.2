@@ -33,14 +33,19 @@ public class LoginPage {
         password.sendKeys(userPassword);
         return this;
     }
-
-    public IndexPage typeloginSite (){
-        typeEmail(useremail);
-        typePassword(password1);
+    public IndexPage typeloginSite (String email, String password){
+        typeEmail(email);
+        typePassword(password);
         Submit.click();
         return new IndexPage(driver);
 
-    }
+//    public IndexPage typeloginSite (){
+//        typeEmail(useremail);
+//        typePassword(password1);
+//        Submit.click();
+//        return new IndexPage(driver);
+//
+      }
 
 
 }

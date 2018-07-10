@@ -24,7 +24,7 @@ public class MainClass {
          indexPage.typeLogIn();
 
           LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
-          loginPage.typeloginSite();
+          loginPage.typeloginSite("superuser7@gmail.com", "12345");
 
           womanPage womanPage = PageFactory.initElements(driver, womanPage.class);
           indexPage.typeWoman();
