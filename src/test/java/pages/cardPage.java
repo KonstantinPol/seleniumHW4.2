@@ -14,7 +14,7 @@ public class cardPage {
 
     //check this TotalAll+++++++++++
     @FindBy (id = ("total_price"))
-    WebElement totalAllLink;
+    public WebElement totalAllLink;
 
     @FindBy (xpath = ("//*[@id=\"center_column\"]/p[2]/a[1]/span/i"))
     WebElement checkout1Link;
@@ -36,6 +36,7 @@ public class cardPage {
 
     //Check this text++++++++++++++++
     @FindBy (xpath = ("//div[@id='center_column']/p"))
+    public
     WebElement CopyTextLink;
 
     @FindBy (linkText = ("Back to orders"))
@@ -43,6 +44,7 @@ public class cardPage {
 
     //Check this text too ++++++++++++++++
     @FindBy (xpath = ("//div[@id='center_column']/p"))
+    public
     WebElement CopyTextOrderCompleteLink;
 
 

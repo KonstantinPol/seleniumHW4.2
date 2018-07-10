@@ -15,10 +15,13 @@ public class womanPage {
     public
     WebElement product1;
     @FindBy (linkText = "Printed Dress")
+    public
     WebElement product2;
     @FindBy (linkText = "Printed Chiffon Dress")
+    public
     WebElement product3;
     @FindBy (linkText = "Blouse")
+    public
     WebElement product4;
     @FindBy (xpath = ("//*[@id='add_to_cart']/button/span"))
     WebElement addToCardButtn;
